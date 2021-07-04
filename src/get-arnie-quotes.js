@@ -17,7 +17,7 @@ const getHTTPresponse = async (urls) => {
  * @returns Promise resolved Array of "Arnie Quotes" with key value
  */
 
-const getPromiseResonse = async (urls) => {
+const getPromiseResponse = async (urls) => {
   const responseArray = [];
   const promiseRes = await getHTTPresponse(urls);
 
@@ -42,7 +42,7 @@ const getPromiseResonse = async (urls) => {
  */
 
 const getArnieQuotes = async (urls) => {
-  return await getPromiseResonse(urls);
+  return await getPromiseResponse(urls);
 };
 
 /*
